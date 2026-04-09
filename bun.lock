@@ -1,0 +1,443 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "lepus-vite-template",
+      "devDependencies": {
+        "typescript": "~5.9.3",
+        "vite": "npm:rolldown-vite@7.2.5",
+      },
+    },
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5",
+  },
+  "packages": {
+    "@adobe/css-tools": ["@adobe/css-tools@4.3.3", "http://registry.m.jd.com/@adobe/css-tools/download/@adobe/css-tools-4.3.3.tgz", {}, "sha1-kHSb3ouJzUF2QiT1qsKc1BOPdf8="],
+
+    "@bufbuild/protobuf": ["@bufbuild/protobuf@2.11.0", "http://registry.m.jd.com/@bufbuild/protobuf/download/@bufbuild/protobuf-2.11.0.tgz", {}, "sha1-PsOYXJB0sjrqM3lXIl/hWg6EX44="],
+
+    "@emnapi/core": ["@emnapi/core@1.9.2", "http://registry.m.jd.com/@emnapi/core/download/@emnapi/core-1.9.2.tgz", { "dependencies": { "@emnapi/wasi-threads": "1.2.1", "tslib": "^2.4.0" } }, "sha1-OHAmXs/8c1LQHq1i2Ng9g1ii0DQ="],
+
+    "@emnapi/runtime": ["@emnapi/runtime@1.9.2", "http://registry.m.jd.com/@emnapi/runtime/download/@emnapi/runtime-1.9.2.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha1-i0aaPbFggXytsd6QUCEanR6oT6I="],
+
+    "@emnapi/wasi-threads": ["@emnapi/wasi-threads@1.2.1", "http://registry.m.jd.com/@emnapi/wasi-threads/download/@emnapi/wasi-threads-1.2.1.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha1-KP7SGhuhznl8RKBwq8lNQvOuhUg="],
+
+    "@esbuild/aix-ppc64": ["@esbuild/aix-ppc64@0.25.12", "http://registry.m.jd.com/@esbuild/aix-ppc64/download/@esbuild/aix-ppc64-0.25.12.tgz", {}, "sha1-gPy+NhMOWLdnBRHoiLjoiiWe12w="],
+
+    "@esbuild/android-arm": ["@esbuild/android-arm@0.25.12", "http://registry.m.jd.com/@esbuild/android-arm/download/@esbuild/android-arm-0.25.12.tgz", {}, "sha1-MAcSEB9/UPHSYnoWLm4JsQm2dno="],
+
+    "@esbuild/android-arm64": ["@esbuild/android-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/android-arm64/download/@esbuild/android-arm64-0.25.12.tgz", {}, "sha1-iqSWX40KeYLcIXNL9mATI6Ztp1I="],
+
+    "@esbuild/android-x64": ["@esbuild/android-x64@0.25.12", "http://registry.m.jd.com/@esbuild/android-x64/download/@esbuild/android-x64-0.25.12.tgz", {}, "sha1-h9+ycWEgK9yVjvSLthsJx1j67hY="],
+
+    "@esbuild/darwin-arm64": ["@esbuild/darwin-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/darwin-arm64/download/@esbuild/darwin-arm64-0.25.12.tgz", {}, "sha1-eRl4mOwf90XSHAceHHzDyALwwf0="],
+
+    "@esbuild/darwin-x64": ["@esbuild/darwin-x64@0.25.12", "http://registry.m.jd.com/@esbuild/darwin-x64/download/@esbuild/darwin-x64-0.25.12.tgz", {}, "sha1-FGQAqFYhM/RcTS6tzzfd0JcYB54="],
+
+    "@esbuild/freebsd-arm64": ["@esbuild/freebsd-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/freebsd-arm64/download/@esbuild/freebsd-arm64-0.25.12.tgz", {}, "sha1-HF+bpyBuFY/SskxZ+i0si7R8oP4="],
+
+    "@esbuild/freebsd-x64": ["@esbuild/freebsd-x64@0.25.12", "http://registry.m.jd.com/@esbuild/freebsd-x64/download/@esbuild/freebsd-x64-0.25.12.tgz", {}, "sha1-6mMfSja+qsS5J5+g/MbKKerusrM="],
+
+    "@esbuild/linux-arm": ["@esbuild/linux-arm@0.25.12", "http://registry.m.jd.com/@esbuild/linux-arm/download/@esbuild/linux-arm-0.25.12.tgz", {}, "sha1-RSzWayCTLQi9xTqLYcDjC69DSLk="],
+
+    "@esbuild/linux-arm64": ["@esbuild/linux-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/linux-arm64/download/@esbuild/linux-arm64-0.25.12.tgz", {}, "sha1-4QZrzlg5TxsRQd7shVel8KIvWXc="],
+
+    "@esbuild/linux-ia32": ["@esbuild/linux-ia32@0.25.12", "http://registry.m.jd.com/@esbuild/linux-ia32/download/@esbuild/linux-ia32-0.25.12.tgz", {}, "sha1-sk+KzEW89UGSx/LzvhtT5lUer+A="],
+
+    "@esbuild/linux-loong64": ["@esbuild/linux-loong64@0.25.12", "http://registry.m.jd.com/@esbuild/linux-loong64/download/@esbuild/linux-loong64-0.25.12.tgz", {}, "sha1-+c//p/yDIlcfvEyLMmjK8VvYGtA="],
+
+    "@esbuild/linux-mips64el": ["@esbuild/linux-mips64el@0.25.12", "http://registry.m.jd.com/@esbuild/linux-mips64el/download/@esbuild/linux-mips64el-0.25.12.tgz", {}, "sha1-V1oUvXRkT/q4ka3H1+YNJ1KW8s0="],
+
+    "@esbuild/linux-ppc64": ["@esbuild/linux-ppc64@0.25.12", "http://registry.m.jd.com/@esbuild/linux-ppc64/download/@esbuild/linux-ppc64-0.25.12.tgz", {}, "sha1-dbmccKlfvV93OddpK+/mBgFZGGk="],
+
+    "@esbuild/linux-riscv64": ["@esbuild/linux-riscv64@0.25.12", "http://registry.m.jd.com/@esbuild/linux-riscv64/download/@esbuild/linux-riscv64-0.25.12.tgz", {}, "sha1-LjJZRAMhpE553fdTXDJQV9qHXNY="],
+
+    "@esbuild/linux-s390x": ["@esbuild/linux-s390x@0.25.12", "http://registry.m.jd.com/@esbuild/linux-s390x/download/@esbuild/linux-s390x-0.25.12.tgz", {}, "sha1-F2dsq7/lko2lsqDW311YzQjbJmM="],
+
+    "@esbuild/linux-x64": ["@esbuild/linux-x64@0.25.12", "http://registry.m.jd.com/@esbuild/linux-x64/download/@esbuild/linux-x64-0.25.12.tgz", {}, "sha1-BYN3VoXKggZtBMNQfwlSTTzXowY="],
+
+    "@esbuild/netbsd-arm64": ["@esbuild/netbsd-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/netbsd-arm64/download/@esbuild/netbsd-arm64-0.25.12.tgz", {}, "sha1-8ExAScsuJS/paxb+2Q9wdGsT9KQ="],
+
+    "@esbuild/netbsd-x64": ["@esbuild/netbsd-x64@0.25.12", "http://registry.m.jd.com/@esbuild/netbsd-x64/download/@esbuild/netbsd-x64-0.25.12.tgz", {}, "sha1-d9oNCg2CbXySHuo9QCklSLJYoHY="],
+
+    "@esbuild/openbsd-arm64": ["@esbuild/openbsd-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/openbsd-arm64/download/@esbuild/openbsd-arm64-0.25.12.tgz", {}, "sha1-Ypb1hnrt7yioGyKrIAnHhqlS3M0="],
+
+    "@esbuild/openbsd-x64": ["@esbuild/openbsd-x64@0.25.12", "http://registry.m.jd.com/@esbuild/openbsd-x64/download/@esbuild/openbsd-x64-0.25.12.tgz", {}, "sha1-+NIzAzYOJ7Fs8GWyO7/0PBQUJnk="],
+
+    "@esbuild/openharmony-arm64": ["@esbuild/openharmony-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/openharmony-arm64/download/@esbuild/openharmony-arm64-0.25.12.tgz", {}, "sha1-SeC3aHRKOSS+DX/ZfdbOmykj2I0="],
+
+    "@esbuild/sunos-x64": ["@esbuild/sunos-x64@0.25.12", "http://registry.m.jd.com/@esbuild/sunos-x64/download/@esbuild/sunos-x64-0.25.12.tgz", {}, "sha1-pu19Z3jWflKMgfsWWyP0kRubE9Y="],
+
+    "@esbuild/win32-arm64": ["@esbuild/win32-arm64@0.25.12", "http://registry.m.jd.com/@esbuild/win32-arm64/download/@esbuild/win32-arm64-0.25.12.tgz", {}, "sha1-msFMN44bZTrxfQjn0840yu9YcyM="],
+
+    "@esbuild/win32-ia32": ["@esbuild/win32-ia32@0.25.12", "http://registry.m.jd.com/@esbuild/win32-ia32/download/@esbuild/win32-ia32-0.25.12.tgz", {}, "sha1-kYlC3LuzXMFPyjmvuRteaj0Scmc="],
+
+    "@esbuild/win32-x64": ["@esbuild/win32-x64@0.25.12", "http://registry.m.jd.com/@esbuild/win32-x64/download/@esbuild/win32-x64-0.25.12.tgz", {}, "sha1-m9rYF2vngRrRSNH4dyNZBB9GxsU="],
+
+    "@isaacs/cliui": ["@isaacs/cliui@8.0.2", "http://registry.m.jd.com/@isaacs/cliui/download/@isaacs/cliui-8.0.2.tgz", { "dependencies": { "string-width": "^5.1.2", "string-width-cjs": "npm:string-width@^4.2.0", "strip-ansi": "^7.0.1", "strip-ansi-cjs": "npm:strip-ansi@^6.0.1", "wrap-ansi": "^8.1.0", "wrap-ansi-cjs": "npm:wrap-ansi@^7.0.0" } }, "sha1-s3Znt7wYHBaHgiWbq0JHT79StVA="],
+
+    "@jridgewell/gen-mapping": ["@jridgewell/gen-mapping@0.3.13", "http://registry.m.jd.com/@jridgewell/gen-mapping/download/@jridgewell/gen-mapping-0.3.13.tgz", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0", "@jridgewell/trace-mapping": "^0.3.24" } }, "sha1-Y0Khn0Q0dRjJPkOxrGnes8Rlah8="],
+
+    "@jridgewell/resolve-uri": ["@jridgewell/resolve-uri@3.1.2", "http://registry.m.jd.com/@jridgewell/resolve-uri/download/@jridgewell/resolve-uri-3.1.2.tgz", {}, "sha1-eg7mAfYPmaIMfHxf8MgDiMEYm9Y="],
+
+    "@jridgewell/source-map": ["@jridgewell/source-map@0.3.11", "http://registry.m.jd.com/@jridgewell/source-map/download/@jridgewell/source-map-0.3.11.tgz", { "dependencies": { "@jridgewell/gen-mapping": "^0.3.5", "@jridgewell/trace-mapping": "^0.3.25" } }, "sha1-shg1y9Nttla4V8KtAuvUE8wTqbo="],
+
+    "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.5", "http://registry.m.jd.com/@jridgewell/sourcemap-codec/download/@jridgewell/sourcemap-codec-1.5.5.tgz", {}, "sha1-aRKwDSxjHA0Vzhp6tXzWV/Ko+Lo="],
+
+    "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "http://registry.m.jd.com/@jridgewell/trace-mapping/download/@jridgewell/trace-mapping-0.3.31.tgz", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha1-2xXWeByTHzolGj2sOVAcmKYIL9A="],
+
+    "@napi-rs/wasm-runtime": ["@napi-rs/wasm-runtime@1.1.2", "http://registry.m.jd.com/@napi-rs/wasm-runtime/download/@napi-rs/wasm-runtime-1.1.2.tgz", { "dependencies": { "@tybys/wasm-util": "^0.10.1" }, "peerDependencies": { "@emnapi/core": "^1.7.1", "@emnapi/runtime": "^1.7.1" } }, "sha1-4lRUtNRM+r0h0byAFwU1mHDjPsw="],
+
+    "@oxc-project/runtime": ["@oxc-project/runtime@0.97.0", "http://registry.m.jd.com/@oxc-project/runtime/download/@oxc-project/runtime-0.97.0.tgz", {}, "sha1-7rnA+JAUma6bj8yi/wJTncHomKc="],
+
+    "@oxc-project/types": ["@oxc-project/types@0.97.0", "http://registry.m.jd.com/@oxc-project/types/download/@oxc-project/types-0.97.0.tgz", {}, "sha1-3/N03mebh27JdlqANS5aVjVNzY4="],
+
+    "@parcel/watcher": ["@parcel/watcher@2.5.6", "http://registry.m.jd.com/@parcel/watcher/download/@parcel/watcher-2.5.6.tgz", { "dependencies": { "detect-libc": "^2.0.3", "is-glob": "^4.0.3", "node-addon-api": "^7.0.0", "picomatch": "^4.0.3" }, "optionalDependencies": { "@parcel/watcher-android-arm64": "2.5.6", "@parcel/watcher-darwin-arm64": "2.5.6", "@parcel/watcher-darwin-x64": "2.5.6", "@parcel/watcher-freebsd-x64": "2.5.6", "@parcel/watcher-linux-arm-glibc": "2.5.6", "@parcel/watcher-linux-arm-musl": "2.5.6", "@parcel/watcher-linux-arm64-glibc": "2.5.6", "@parcel/watcher-linux-arm64-musl": "2.5.6", "@parcel/watcher-linux-x64-glibc": "2.5.6", "@parcel/watcher-linux-x64-musl": "2.5.6", "@parcel/watcher-win32-arm64": "2.5.6", "@parcel/watcher-win32-ia32": "2.5.6", "@parcel/watcher-win32-x64": "2.5.6" } }, "sha1-P5MoKMiU8G0K2c/vreF1bsxu8fE="],
+
+    "@parcel/watcher-android-arm64": ["@parcel/watcher-android-arm64@2.5.6", "http://registry.m.jd.com/@parcel/watcher-android-arm64/download/@parcel/watcher-android-arm64-2.5.6.tgz", {}, "sha1-XzLg26NW9KyaEQaNKlwTTKO6ZWQ="],
+
+    "@parcel/watcher-darwin-arm64": ["@parcel/watcher-darwin-arm64@2.5.6", "http://registry.m.jd.com/@parcel/watcher-darwin-arm64/download/@parcel/watcher-darwin-arm64-2.5.6.tgz", {}, "sha1-iNPnILWbHs7/zpjaxG18QOi+Xo4="],
+
+    "@parcel/watcher-darwin-x64": ["@parcel/watcher-darwin-x64@2.5.6", "http://registry.m.jd.com/@parcel/watcher-darwin-x64/download/@parcel/watcher-darwin-x64-2.5.6.tgz", {}, "sha1-vwXXani8FZdPFew2cYSGmLCDgGM="],
+
+    "@parcel/watcher-freebsd-x64": ["@parcel/watcher-freebsd-x64@2.5.6", "http://registry.m.jd.com/@parcel/watcher-freebsd-x64/download/@parcel/watcher-freebsd-x64-2.5.6.tgz", {}, "sha1-i8JumEjnMDrIKSKlrhse8b20ilM="],
+
+    "@parcel/watcher-linux-arm-glibc": ["@parcel/watcher-linux-arm-glibc@2.5.6", "http://registry.m.jd.com/@parcel/watcher-linux-arm-glibc/download/@parcel/watcher-linux-arm-glibc-2.5.6.tgz", {}, "sha1-Eyj+4d6wwteGUHnvU6K6TML4tAo="],
+
+    "@parcel/watcher-linux-arm-musl": ["@parcel/watcher-linux-arm-musl@2.5.6", "http://registry.m.jd.com/@parcel/watcher-linux-arm-musl/download/@parcel/watcher-linux-arm-musl-2.5.6.tgz", {}, "sha1-utD0XLPiFXdG24udIttqElcR8VI="],
+
+    "@parcel/watcher-linux-arm64-glibc": ["@parcel/watcher-linux-arm64-glibc@2.5.6", "http://registry.m.jd.com/@parcel/watcher-linux-arm64-glibc/download/@parcel/watcher-linux-arm64-glibc-2.5.6.tgz", {}, "sha1-t1kT+9UB2VI8XzXUIJV799AgSAk="],
+
+    "@parcel/watcher-linux-arm64-musl": ["@parcel/watcher-linux-arm64-musl@2.5.6", "http://registry.m.jd.com/@parcel/watcher-linux-arm64-musl/download/@parcel/watcher-linux-arm64-musl-2.5.6.tgz", {}, "sha1-2lYhpqV2BwyMDeYN6otG3Jw4J9Q="],
+
+    "@parcel/watcher-linux-x64-glibc": ["@parcel/watcher-linux-x64-glibc@2.5.6", "http://registry.m.jd.com/@parcel/watcher-linux-x64-glibc/download/@parcel/watcher-linux-x64-glibc-2.5.6.tgz", {}, "sha1-zkN6zNxLMPk6CQtKIh/ZXNm4ljk="],
+
+    "@parcel/watcher-linux-x64-musl": ["@parcel/watcher-linux-x64-musl@2.5.6", "http://registry.m.jd.com/@parcel/watcher-linux-x64-musl/download/@parcel/watcher-linux-x64-musl-2.5.6.tgz", {}, "sha1-AkAMVLSmfvzH4jJ7JJcRkgrJaeI="],
+
+    "@parcel/watcher-win32-arm64": ["@parcel/watcher-win32-arm64@2.5.6", "http://registry.m.jd.com/@parcel/watcher-win32-arm64/download/@parcel/watcher-win32-arm64-2.5.6.tgz", {}, "sha1-yq49PHWDygpxcea9FCw00g6haR4="],
+
+    "@parcel/watcher-win32-ia32": ["@parcel/watcher-win32-ia32@2.5.6", "http://registry.m.jd.com/@parcel/watcher-win32-ia32/download/@parcel/watcher-win32-ia32-2.5.6.tgz", {}, "sha1-mskiVQiW3+R7/Frjvk8byvgVXW0="],
+
+    "@parcel/watcher-win32-x64": ["@parcel/watcher-win32-x64@2.5.6", "http://registry.m.jd.com/@parcel/watcher-win32-x64/download/@parcel/watcher-win32-x64-2.5.6.tgz", {}, "sha1-c/2vui4hxEjw5Fa74TF42P4Rc50="],
+
+    "@pkgjs/parseargs": ["@pkgjs/parseargs@0.11.0", "http://registry.m.jd.com/@pkgjs/parseargs/download/@pkgjs/parseargs-0.11.0.tgz", {}, "sha1-p36nQvqyV3UUVDTrHSMoz1ATrDM="],
+
+    "@rolldown/binding-android-arm64": ["@rolldown/binding-android-arm64@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-android-arm64/download/@rolldown/binding-android-arm64-1.0.0-beta.50.tgz", {}, "sha1-Nr94I6bcGXpinAZN7IRB/1J2+iU="],
+
+    "@rolldown/binding-darwin-arm64": ["@rolldown/binding-darwin-arm64@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-darwin-arm64/download/@rolldown/binding-darwin-arm64-1.0.0-beta.50.tgz", {}, "sha1-F8HOc14UCytv4GPL0S1YQhWhwz0="],
+
+    "@rolldown/binding-darwin-x64": ["@rolldown/binding-darwin-x64@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-darwin-x64/download/@rolldown/binding-darwin-x64-1.0.0-beta.50.tgz", {}, "sha1-zpButt30xvb4CmqI9ip0WUky4Xw="],
+
+    "@rolldown/binding-freebsd-x64": ["@rolldown/binding-freebsd-x64@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-freebsd-x64/download/@rolldown/binding-freebsd-x64-1.0.0-beta.50.tgz", {}, "sha1-LOFtelvuVOjQbeDIcFEDhmT20r0="],
+
+    "@rolldown/binding-linux-arm-gnueabihf": ["@rolldown/binding-linux-arm-gnueabihf@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-linux-arm-gnueabihf/download/@rolldown/binding-linux-arm-gnueabihf-1.0.0-beta.50.tgz", {}, "sha1-unN0+xda01eF1SFl/ca+gM1DWqs="],
+
+    "@rolldown/binding-linux-arm64-gnu": ["@rolldown/binding-linux-arm64-gnu@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-linux-arm64-gnu/download/@rolldown/binding-linux-arm64-gnu-1.0.0-beta.50.tgz", {}, "sha1-y2G8vzLjI2YFQD8V3spmruwZNAA="],
+
+    "@rolldown/binding-linux-arm64-musl": ["@rolldown/binding-linux-arm64-musl@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-linux-arm64-musl/download/@rolldown/binding-linux-arm64-musl-1.0.0-beta.50.tgz", {}, "sha1-8m0z7xPBO1o0F/OguQKhwY9jb1s="],
+
+    "@rolldown/binding-linux-x64-gnu": ["@rolldown/binding-linux-x64-gnu@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-linux-x64-gnu/download/@rolldown/binding-linux-x64-gnu-1.0.0-beta.50.tgz", {}, "sha1-J7Lun3azk/lyN6r03lCkfrTjk/U="],
+
+    "@rolldown/binding-linux-x64-musl": ["@rolldown/binding-linux-x64-musl@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-linux-x64-musl/download/@rolldown/binding-linux-x64-musl-1.0.0-beta.50.tgz", {}, "sha1-b1Jp3yF6i12vxxoYqorrSdL42YE="],
+
+    "@rolldown/binding-openharmony-arm64": ["@rolldown/binding-openharmony-arm64@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-openharmony-arm64/download/@rolldown/binding-openharmony-arm64-1.0.0-beta.50.tgz", {}, "sha1-PFNyAMiblkeGZEHYijGg9MPJEig="],
+
+    "@rolldown/binding-wasm32-wasi": ["@rolldown/binding-wasm32-wasi@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-wasm32-wasi/download/@rolldown/binding-wasm32-wasi-1.0.0-beta.50.tgz", { "dependencies": { "@napi-rs/wasm-runtime": "^1.0.7" } }, "sha1-BPTqW82opHdKFLTp15Zi3JEBLPw="],
+
+    "@rolldown/binding-win32-arm64-msvc": ["@rolldown/binding-win32-arm64-msvc@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-win32-arm64-msvc/download/@rolldown/binding-win32-arm64-msvc-1.0.0-beta.50.tgz", {}, "sha1-7ghNDddFMP4UlQL5Qrjiv2p++Ng="],
+
+    "@rolldown/binding-win32-ia32-msvc": ["@rolldown/binding-win32-ia32-msvc@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-win32-ia32-msvc/download/@rolldown/binding-win32-ia32-msvc-1.0.0-beta.50.tgz", {}, "sha1-Y7rT6sLMJe9C73DqXr26Ej8xy7o="],
+
+    "@rolldown/binding-win32-x64-msvc": ["@rolldown/binding-win32-x64-msvc@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/binding-win32-x64-msvc/download/@rolldown/binding-win32-x64-msvc-1.0.0-beta.50.tgz", {}, "sha1-OiLgGSgdWhfbb+tVXyHfZ3ETTDs="],
+
+    "@rolldown/pluginutils": ["@rolldown/pluginutils@1.0.0-beta.50", "http://registry.m.jd.com/@rolldown/pluginutils/download/@rolldown/pluginutils-1.0.0-beta.50.tgz", {}, "sha1-oS8H6QlbiQHevMF9mLQ1DwzGRjM="],
+
+    "@tybys/wasm-util": ["@tybys/wasm-util@0.10.1", "http://registry.m.jd.com/@tybys/wasm-util/download/@tybys/wasm-util-0.10.1.tgz", { "dependencies": { "tslib": "^2.4.0" } }, "sha1-7N3TIFzx4tUnRkn/Du3SmR7X9BQ="],
+
+    "@types/node": ["@types/node@25.5.2", "http://registry.m.jd.com/@types/node/download/@types/node-25.5.2.tgz", { "dependencies": { "undici-types": "~7.18.0" } }, "sha1-lIYeMvn/2N4QtSu+xANGXIT/92I="],
+
+    "acorn": ["acorn@8.16.0", "http://registry.m.jd.com/acorn/download/acorn-8.16.0.tgz", { "bin": { "acorn": "bin/acorn" } }, "sha1-TOecib5Ar+ev6POtuQKh8c6awIo="],
+
+    "ansi-regex": ["ansi-regex@6.2.2", "http://registry.m.jd.com/ansi-regex/download/ansi-regex-6.2.2.tgz", {}, "sha1-YCFu6kZNhkWXzigyAAc4oFiWUME="],
+
+    "ansi-styles": ["ansi-styles@6.2.3", "http://registry.m.jd.com/ansi-styles/download/ansi-styles-6.2.3.tgz", {}, "sha1-wETV3MUhoHZBNHJZehrLHxA8QEE="],
+
+    "balanced-match": ["balanced-match@1.0.2", "http://registry.m.jd.com/balanced-match/download/balanced-match-1.0.2.tgz", {}, "sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4="],
+
+    "brace-expansion": ["brace-expansion@2.0.3", "http://registry.m.jd.com/brace-expansion/download/brace-expansion-2.0.3.tgz", { "dependencies": { "balanced-match": "^1.0.0" } }, "sha1-BJMzi91Y4xmxA5xnz37kOYksAdk="],
+
+    "buffer-from": ["buffer-from@1.1.2", "http://registry.m.jd.com/buffer-from/download/buffer-from-1.1.2.tgz", {}, "sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U="],
+
+    "chokidar": ["chokidar@4.0.3", "http://registry.m.jd.com/chokidar/download/chokidar-4.0.3.tgz", { "dependencies": { "readdirp": "^4.0.1" } }, "sha1-e+N6TAPJruHs/oYqSiOyxwwgXTA="],
+
+    "color-convert": ["color-convert@2.0.1", "http://registry.m.jd.com/color-convert/download/color-convert-2.0.1.tgz", { "dependencies": { "color-name": "~1.1.4" } }, "sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM="],
+
+    "color-name": ["color-name@1.1.4", "http://registry.m.jd.com/color-name/download/color-name-1.1.4.tgz", {}, "sha1-wqCah6y95pVD3m9j+jmVyCbFNqI="],
+
+    "colorjs.io": ["colorjs.io@0.5.2", "http://registry.m.jd.com/colorjs.io/download/colorjs.io-0.5.2.tgz", {}, "sha1-Y7IBObAHWR68M1mTK++EYo6z/O8="],
+
+    "commander": ["commander@2.20.3", "http://registry.m.jd.com/commander/download/commander-2.20.3.tgz", {}, "sha1-/UhehMA+tIgcIHIrpIA16FMa6zM="],
+
+    "copy-anything": ["copy-anything@3.0.5", "http://registry.m.jd.com/copy-anything/download/copy-anything-3.0.5.tgz", { "dependencies": { "is-what": "^4.1.8" } }, "sha1-LZLc6MSY95D6etFrAaGuWkWwIKA="],
+
+    "cross-spawn": ["cross-spawn@7.0.6", "http://registry.m.jd.com/cross-spawn/download/cross-spawn-7.0.6.tgz", { "dependencies": { "path-key": "^3.1.0", "shebang-command": "^2.0.0", "which": "^2.0.1" } }, "sha1-ilj+ePANzXDDcEUXWd+/rwPo7p8="],
+
+    "debug": ["debug@4.4.3", "http://registry.m.jd.com/debug/download/debug-4.4.3.tgz", { "dependencies": { "ms": "^2.1.3" } }, "sha1-xq5DLZvZZiWC/OCHCbA4xY6ePWo="],
+
+    "detect-libc": ["detect-libc@2.1.2", "http://registry.m.jd.com/detect-libc/download/detect-libc-2.1.2.tgz", {}, "sha1-aJxdzcGQDvVYOky59te0c3QgdK0="],
+
+    "eastasianwidth": ["eastasianwidth@0.2.0", "http://registry.m.jd.com/eastasianwidth/download/eastasianwidth-0.2.0.tgz", {}, "sha1-aWzi7Aqg5uqTo5f/zySqeEDIJ8s="],
+
+    "emoji-regex": ["emoji-regex@9.2.2", "http://registry.m.jd.com/emoji-regex/download/emoji-regex-9.2.2.tgz", {}, "sha1-hAyIA7DYBH9P8M+WMXazLU7z7XI="],
+
+    "errno": ["errno@0.1.8", "http://registry.m.jd.com/errno/download/errno-0.1.8.tgz", { "dependencies": { "prr": "~1.0.1" }, "bin": { "errno": "cli.js" } }, "sha1-i7Ppx9Rjvkl2/4iPdrSAnrwugR8="],
+
+    "esbuild": ["esbuild@0.25.12", "http://registry.m.jd.com/esbuild/download/esbuild-0.25.12.tgz", { "optionalDependencies": { "@esbuild/aix-ppc64": "0.25.12", "@esbuild/android-arm": "0.25.12", "@esbuild/android-arm64": "0.25.12", "@esbuild/android-x64": "0.25.12", "@esbuild/darwin-arm64": "0.25.12", "@esbuild/darwin-x64": "0.25.12", "@esbuild/freebsd-arm64": "0.25.12", "@esbuild/freebsd-x64": "0.25.12", "@esbuild/linux-arm": "0.25.12", "@esbuild/linux-arm64": "0.25.12", "@esbuild/linux-ia32": "0.25.12", "@esbuild/linux-loong64": "0.25.12", "@esbuild/linux-mips64el": "0.25.12", "@esbuild/linux-ppc64": "0.25.12", "@esbuild/linux-riscv64": "0.25.12", "@esbuild/linux-s390x": "0.25.12", "@esbuild/linux-x64": "0.25.12", "@esbuild/netbsd-arm64": "0.25.12", "@esbuild/netbsd-x64": "0.25.12", "@esbuild/openbsd-arm64": "0.25.12", "@esbuild/openbsd-x64": "0.25.12", "@esbuild/openharmony-arm64": "0.25.12", "@esbuild/sunos-x64": "0.25.12", "@esbuild/win32-arm64": "0.25.12", "@esbuild/win32-ia32": "0.25.12", "@esbuild/win32-x64": "0.25.12" }, "bin": { "esbuild": "bin/esbuild" } }, "sha1-l6HQQfSrAML84vg40rmWmi0ql6U="],
+
+    "fdir": ["fdir@6.5.0", "http://registry.m.jd.com/fdir/download/fdir-6.5.0.tgz", { "peerDependencies": { "picomatch": "^3 || ^4" } }, "sha1-7Sq5Z6MxreYvGNB32uGSaE1Q01A="],
+
+    "foreground-child": ["foreground-child@3.3.1", "http://registry.m.jd.com/foreground-child/download/foreground-child-3.3.1.tgz", { "dependencies": { "cross-spawn": "^7.0.6", "signal-exit": "^4.0.1" } }, "sha1-Mujp7Rtoo0l777msK2rfkqY4V28="],
+
+    "fsevents": ["fsevents@2.3.3", "http://registry.m.jd.com/fsevents/download/fsevents-2.3.3.tgz", {}, "sha1-ysZAd4XQNnWipeGlMFxpezR9kNY="],
+
+    "get-tsconfig": ["get-tsconfig@4.13.7", "http://registry.m.jd.com/get-tsconfig/download/get-tsconfig-4.13.7.tgz", { "dependencies": { "resolve-pkg-maps": "^1.0.0" } }, "sha1-udixmbBgM87uoak99+pXZUFQibw="],
+
+    "glob": ["glob@10.5.0", "http://registry.m.jd.com/glob/download/glob-10.5.0.tgz", { "dependencies": { "foreground-child": "^3.1.0", "jackspeak": "^3.1.2", "minimatch": "^9.0.4", "minipass": "^7.1.2", "package-json-from-dist": "^1.0.0", "path-scurry": "^1.11.1" }, "bin": { "glob": "dist/esm/bin.mjs" } }, "sha1-jsA1WRnNMzjChCiiPU8k7MX+c4w="],
+
+    "graceful-fs": ["graceful-fs@4.2.11", "http://registry.m.jd.com/graceful-fs/download/graceful-fs-4.2.11.tgz", {}, "sha1-QYPk6L8Iu24Fu7L30uDI9xLKQOM="],
+
+    "has-flag": ["has-flag@4.0.0", "http://registry.m.jd.com/has-flag/download/has-flag-4.0.0.tgz", {}, "sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s="],
+
+    "iconv-lite": ["iconv-lite@0.6.3", "http://registry.m.jd.com/iconv-lite/download/iconv-lite-0.6.3.tgz", { "dependencies": { "safer-buffer": ">= 2.1.2 < 3.0.0" } }, "sha1-pS+AvzjaGVLrXGgXkHGYcaGnJQE="],
+
+    "image-size": ["image-size@0.5.5", "http://registry.m.jd.com/image-size/download/image-size-0.5.5.tgz", { "bin": { "image-size": "bin/image-size.js" } }, "sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w="],
+
+    "immutable": ["immutable@5.1.5", "http://registry.m.jd.com/immutable/download/immutable-5.1.5.tgz", {}, "sha1-k+5NtcKpq0Kkp4MGnzxdiEfUAWU="],
+
+    "is-extglob": ["is-extglob@2.1.1", "http://registry.m.jd.com/is-extglob/download/is-extglob-2.1.1.tgz", {}, "sha1-qIwCU1eR8C7TfHahueqXc8gz+MI="],
+
+    "is-fullwidth-code-point": ["is-fullwidth-code-point@3.0.0", "http://registry.m.jd.com/is-fullwidth-code-point/download/is-fullwidth-code-point-3.0.0.tgz", {}, "sha1-8Rb4Bk/pCz94RKOJl8C3UFEmnx0="],
+
+    "is-glob": ["is-glob@4.0.3", "http://registry.m.jd.com/is-glob/download/is-glob-4.0.3.tgz", { "dependencies": { "is-extglob": "^2.1.1" } }, "sha1-ZPYeQsu7LuwgcanawLKLoeZdUIQ="],
+
+    "is-what": ["is-what@4.1.16", "http://registry.m.jd.com/is-what/download/is-what-4.1.16.tgz", {}, "sha1-GthgoZ2otIla1Uldoxgs4qzdem8="],
+
+    "isexe": ["isexe@2.0.0", "http://registry.m.jd.com/isexe/download/isexe-2.0.0.tgz", {}, "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="],
+
+    "jackspeak": ["jackspeak@3.4.3", "http://registry.m.jd.com/jackspeak/download/jackspeak-3.4.3.tgz", { "dependencies": { "@isaacs/cliui": "^8.0.2" }, "optionalDependencies": { "@pkgjs/parseargs": "^0.11.0" } }, "sha1-iDOp2Jq0rN5hiJQr0cU7Y5DtWoo="],
+
+    "jiti": ["jiti@2.6.1", "http://registry.m.jd.com/jiti/download/jiti-2.6.1.tgz", { "bin": { "jiti": "lib/jiti-cli.mjs" } }, "sha1-F47y/JoaWUJIwgYnzYIBh6TXjZI="],
+
+    "less": ["less@4.6.4", "http://registry.m.jd.com/less/download/less-4.6.4.tgz", { "dependencies": { "copy-anything": "^3.0.5", "parse-node-version": "^1.0.1" }, "optionalDependencies": { "errno": "^0.1.1", "graceful-fs": "^4.1.2", "image-size": "~0.5.0", "make-dir": "^2.1.0", "mime": "^1.4.1", "needle": "^3.1.0", "source-map": "~0.6.0" }, "bin": { "lessc": "bin/lessc" } }, "sha1-P/gGjmyKWfHs6Ka5InvaKMHtaKI="],
+
+    "lightningcss": ["lightningcss@1.32.0", "http://registry.m.jd.com/lightningcss/download/lightningcss-1.32.0.tgz", { "dependencies": { "detect-libc": "^2.0.3" }, "optionalDependencies": { "lightningcss-android-arm64": "1.32.0", "lightningcss-darwin-arm64": "1.32.0", "lightningcss-darwin-x64": "1.32.0", "lightningcss-freebsd-x64": "1.32.0", "lightningcss-linux-arm-gnueabihf": "1.32.0", "lightningcss-linux-arm64-gnu": "1.32.0", "lightningcss-linux-arm64-musl": "1.32.0", "lightningcss-linux-x64-gnu": "1.32.0", "lightningcss-linux-x64-musl": "1.32.0", "lightningcss-win32-arm64-msvc": "1.32.0", "lightningcss-win32-x64-msvc": "1.32.0" } }, "sha1-uFqulkhtyxv0mnyFcSISc/Tx5Kk="],
+
+    "lightningcss-android-arm64": ["lightningcss-android-arm64@1.32.0", "http://registry.m.jd.com/lightningcss-android-arm64/download/lightningcss-android-arm64-1.32.0.tgz", {}, "sha1-8DOIURbf79nG9UeHUj41FLYeGWg="],
+
+    "lightningcss-darwin-arm64": ["lightningcss-darwin-arm64@1.32.0", "http://registry.m.jd.com/lightningcss-darwin-arm64/download/lightningcss-darwin-arm64-1.32.0.tgz", {}, "sha1-ULcYcbAcgZlYS2SeKSVH+up6+bU="],
+
+    "lightningcss-darwin-x64": ["lightningcss-darwin-x64@1.32.0", "http://registry.m.jd.com/lightningcss-darwin-x64/download/lightningcss-darwin-x64-1.32.0.tgz", {}, "sha1-NfPpczLRMLnKGB4RtWje1q68bV4="],
+
+    "lightningcss-freebsd-x64": ["lightningcss-freebsd-x64@1.32.0", "http://registry.m.jd.com/lightningcss-freebsd-x64/download/lightningcss-freebsd-x64-1.32.0.tgz", {}, "sha1-l3enZHK2Ttb/lDQq1kx7r9eUpXU="],
+
+    "lightningcss-linux-arm-gnueabihf": ["lightningcss-linux-arm-gnueabihf@1.32.0", "http://registry.m.jd.com/lightningcss-linux-arm-gnueabihf/download/lightningcss-linux-arm-gnueabihf-1.32.0.tgz", {}, "sha1-E65lLhq3O5E117faFy9mbEEK1T0="],
+
+    "lightningcss-linux-arm64-gnu": ["lightningcss-linux-arm64-gnu@1.32.0", "http://registry.m.jd.com/lightningcss-linux-arm64-gnu/download/lightningcss-linux-arm64-gnu-1.32.0.tgz", {}, "sha1-QXhYeVqUWS9oASOhsfnaig4e8zU="],
+
+    "lightningcss-linux-arm64-musl": ["lightningcss-linux-arm64-musl@1.32.0", "http://registry.m.jd.com/lightningcss-linux-arm64-musl/download/lightningcss-linux-arm64-musl-1.32.0.tgz", {}, "sha1-a+NmkugQtxgECAL9gJYjz/5zITM="],
+
+    "lightningcss-linux-x64-gnu": ["lightningcss-linux-x64-gnu@1.32.0", "http://registry.m.jd.com/lightningcss-linux-x64-gnu/download/lightningcss-linux-x64-gnu-1.32.0.tgz", {}, "sha1-C3gDr06yHP043Tn+Kru1PH3QkfY="],
+
+    "lightningcss-linux-x64-musl": ["lightningcss-linux-x64-musl@1.32.0", "http://registry.m.jd.com/lightningcss-linux-x64-musl/download/lightningcss-linux-x64-musl-1.32.0.tgz", {}, "sha1-iNyLqGXd3bGsXvBLDxYYBEGMFjs="],
+
+    "lightningcss-win32-arm64-msvc": ["lightningcss-win32-arm64-msvc@1.32.0", "http://registry.m.jd.com/lightningcss-win32-arm64-msvc/download/lightningcss-win32-arm64-msvc-1.32.0.tgz", {}, "sha1-TzC6P6XpJfW3n5RejMDRdsOxqzg="],
+
+    "lightningcss-win32-x64-msvc": ["lightningcss-win32-x64-msvc@1.32.0", "http://registry.m.jd.com/lightningcss-win32-x64-msvc/download/lightningcss-win32-x64-msvc-1.32.0.tgz", {}, "sha1-FBqlYFZFBkkokCu0rwRfp9n0Igo="],
+
+    "lru-cache": ["lru-cache@10.4.3", "http://registry.m.jd.com/lru-cache/download/lru-cache-10.4.3.tgz", {}, "sha1-QQ/IoXtw5ZgBPfJXwkRrfzOD8Rk="],
+
+    "make-dir": ["make-dir@2.1.0", "http://registry.m.jd.com/make-dir/download/make-dir-2.1.0.tgz", { "dependencies": { "pify": "^4.0.1", "semver": "^5.6.0" } }, "sha1-XwMQ4YuL6JjMBwCSlaMK5B6R5vU="],
+
+    "mime": ["mime@1.6.0", "http://registry.m.jd.com/mime/download/mime-1.6.0.tgz", { "bin": { "mime": "cli.js" } }, "sha1-Ms2eXGRVO9WNGaVor0Uqz/BJgbE="],
+
+    "minimatch": ["minimatch@9.0.9", "http://registry.m.jd.com/minimatch/download/minimatch-9.0.9.tgz", { "dependencies": { "brace-expansion": "^2.0.2" } }, "sha1-mwy5/LeAh/b9fqur4lEcTT1gV04="],
+
+    "minipass": ["minipass@7.1.3", "http://registry.m.jd.com/minipass/download/minipass-7.1.3.tgz", {}, "sha1-eTibTrG7LQA6m7qH1JLyvTe9xls="],
+
+    "ms": ["ms@2.1.3", "http://registry.m.jd.com/ms/download/ms-2.1.3.tgz", {}, "sha1-V0yBOM4dK1hh8LRFedut1gxmFbI="],
+
+    "nanoid": ["nanoid@3.3.11", "http://registry.m.jd.com/nanoid/download/nanoid-3.3.11.tgz", { "bin": { "nanoid": "bin/nanoid.cjs" } }, "sha1-T08RLO++MDIC8hmYOBKJNiZtGFs="],
+
+    "needle": ["needle@3.5.0", "http://registry.m.jd.com/needle/download/needle-3.5.0.tgz", { "dependencies": { "iconv-lite": "^0.6.3", "sax": "^1.2.4" }, "bin": { "needle": "bin/needle" } }, "sha1-qiAjZCy0GxGhG6u3M/2PqVKRkRI="],
+
+    "node-addon-api": ["node-addon-api@7.1.1", "http://registry.m.jd.com/node-addon-api/download/node-addon-api-7.1.1.tgz", {}, "sha1-Grpmk7DyVSWKBJ1iEykykyKq1Vg="],
+
+    "package-json-from-dist": ["package-json-from-dist@1.0.1", "http://registry.m.jd.com/package-json-from-dist/download/package-json-from-dist-1.0.1.tgz", {}, "sha1-TxRxoBCCeob5TP2bByfjbSZ95QU="],
+
+    "parse-node-version": ["parse-node-version@1.0.1", "http://registry.m.jd.com/parse-node-version/download/parse-node-version-1.0.1.tgz", {}, "sha1-4rXb7eAOf6m8NjYH9TMn6LBzGJs="],
+
+    "path-key": ["path-key@3.1.1", "http://registry.m.jd.com/path-key/download/path-key-3.1.1.tgz", {}, "sha1-WB9q3mWMu6ZaDTOA3ndTKVBU83U="],
+
+    "path-scurry": ["path-scurry@1.11.1", "http://registry.m.jd.com/path-scurry/download/path-scurry-1.11.1.tgz", { "dependencies": { "lru-cache": "^10.2.0", "minipass": "^5.0.0 || ^6.0.2 || ^7.0.0" } }, "sha1-eWCmaIiFlKByCxKpEdGnQqufEdI="],
+
+    "picocolors": ["picocolors@1.1.1", "http://registry.m.jd.com/picocolors/download/picocolors-1.1.1.tgz", {}, "sha1-PTIa8+q5ObCDyPkpodEs2oHCa2s="],
+
+    "picomatch": ["picomatch@4.0.4", "http://registry.m.jd.com/picomatch/download/picomatch-4.0.4.tgz", {}, "sha1-/W9eAKFDCG4HTf/kySS4+yk7BYk="],
+
+    "pify": ["pify@4.0.1", "http://registry.m.jd.com/pify/download/pify-4.0.1.tgz", {}, "sha1-SyzSXFDVmHNcUCkiJP2MbfQeMjE="],
+
+    "postcss": ["postcss@8.5.9", "http://registry.m.jd.com/postcss/download/postcss-8.5.9.tgz", { "dependencies": { "nanoid": "^3.3.11", "picocolors": "^1.1.1", "source-map-js": "^1.2.1" } }, "sha1-9u6eC5Tw8ZyX0vFyv71/xx/hzKQ="],
+
+    "prr": ["prr@1.0.1", "http://registry.m.jd.com/prr/download/prr-1.0.1.tgz", {}, "sha1-0/wRS6BplaRexok/SEzrHXj19HY="],
+
+    "readdirp": ["readdirp@4.1.2", "http://registry.m.jd.com/readdirp/download/readdirp-4.1.2.tgz", {}, "sha1-64WAFDX78qfuWPGeCSGwaPxplI0="],
+
+    "resolve-pkg-maps": ["resolve-pkg-maps@1.0.0", "http://registry.m.jd.com/resolve-pkg-maps/download/resolve-pkg-maps-1.0.0.tgz", {}, "sha1-YWs9wsVwVrVYjDHN9LPWTbEzcg8="],
+
+    "rolldown": ["rolldown@1.0.0-beta.50", "http://registry.m.jd.com/rolldown/download/rolldown-1.0.0-beta.50.tgz", { "dependencies": { "@oxc-project/types": "=0.97.0", "@rolldown/pluginutils": "1.0.0-beta.50" }, "optionalDependencies": { "@rolldown/binding-android-arm64": "1.0.0-beta.50", "@rolldown/binding-darwin-arm64": "1.0.0-beta.50", "@rolldown/binding-darwin-x64": "1.0.0-beta.50", "@rolldown/binding-freebsd-x64": "1.0.0-beta.50", "@rolldown/binding-linux-arm-gnueabihf": "1.0.0-beta.50", "@rolldown/binding-linux-arm64-gnu": "1.0.0-beta.50", "@rolldown/binding-linux-arm64-musl": "1.0.0-beta.50", "@rolldown/binding-linux-x64-gnu": "1.0.0-beta.50", "@rolldown/binding-linux-x64-musl": "1.0.0-beta.50", "@rolldown/binding-openharmony-arm64": "1.0.0-beta.50", "@rolldown/binding-wasm32-wasi": "1.0.0-beta.50", "@rolldown/binding-win32-arm64-msvc": "1.0.0-beta.50", "@rolldown/binding-win32-ia32-msvc": "1.0.0-beta.50", "@rolldown/binding-win32-x64-msvc": "1.0.0-beta.50" }, "bin": { "rolldown": "bin/cli.mjs" } }, "sha1-3zK2vSR2W25ntyhzlUT3w/tyo80="],
+
+    "rxjs": ["rxjs@7.8.2", "http://registry.m.jd.com/rxjs/download/rxjs-7.8.2.tgz", { "dependencies": { "tslib": "^2.1.0" } }, "sha1-lVvEc+2K8RoAKivlIHG/R1Y4YHs="],
+
+    "safer-buffer": ["safer-buffer@2.1.2", "http://registry.m.jd.com/safer-buffer/download/safer-buffer-2.1.2.tgz", {}, "sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo="],
+
+    "sass": ["sass@1.99.0", "http://registry.m.jd.com/sass/download/sass-1.99.0.tgz", { "dependencies": { "chokidar": "^4.0.0", "immutable": "^5.1.5", "source-map-js": ">=0.6.2 <2.0.0" }, "optionalDependencies": { "@parcel/watcher": "^2.4.1" }, "bin": { "sass": "sass.js" } }, "sha1-/50VlNpIhiSd+q+rvuot6i3HSyY="],
+
+    "sass-embedded": ["sass-embedded@1.99.0", "http://registry.m.jd.com/sass-embedded/download/sass-embedded-1.99.0.tgz", { "dependencies": { "@bufbuild/protobuf": "^2.5.0", "colorjs.io": "^0.5.0", "immutable": "^5.1.5", "rxjs": "^7.4.0", "supports-color": "^8.1.1", "sync-child-process": "^1.0.2", "varint": "^6.0.0" }, "optionalDependencies": { "sass-embedded-all-unknown": "1.99.0", "sass-embedded-android-arm": "1.99.0", "sass-embedded-android-arm64": "1.99.0", "sass-embedded-android-riscv64": "1.99.0", "sass-embedded-android-x64": "1.99.0", "sass-embedded-darwin-arm64": "1.99.0", "sass-embedded-darwin-x64": "1.99.0", "sass-embedded-linux-arm": "1.99.0", "sass-embedded-linux-arm64": "1.99.0", "sass-embedded-linux-musl-arm": "1.99.0", "sass-embedded-linux-musl-arm64": "1.99.0", "sass-embedded-linux-musl-riscv64": "1.99.0", "sass-embedded-linux-musl-x64": "1.99.0", "sass-embedded-linux-riscv64": "1.99.0", "sass-embedded-linux-x64": "1.99.0", "sass-embedded-unknown-all": "1.99.0", "sass-embedded-win32-arm64": "1.99.0", "sass-embedded-win32-x64": "1.99.0" }, "bin": { "sass": "dist/bin/sass.js" } }, "sha1-NI/bmLAmlNixk+eg4b/EdAj4nU8="],
+
+    "sass-embedded-darwin-arm64": ["sass-embedded-darwin-arm64@1.99.0", "http://registry.m.jd.com/sass-embedded-darwin-arm64/download/sass-embedded-darwin-arm64-1.99.0.tgz", {}, "sha1-qoNroLI0L40PoDOUeBqThfuPIi0="],
+
+    "sax": ["sax@1.4.4", "http://registry.m.jd.com/sax/download/sax-1.4.4.tgz", {}, "sha1-8pwruoDOW4b0NDtMK+nyuWYnz4s="],
+
+    "semver": ["semver@5.7.2", "http://registry.m.jd.com/semver/download/semver-5.7.2.tgz", { "bin": { "semver": "bin/semver" } }, "sha1-SNVdtzfDKHzUg14X+hP+rOHEHvg="],
+
+    "shebang-command": ["shebang-command@2.0.0", "http://registry.m.jd.com/shebang-command/download/shebang-command-2.0.0.tgz", { "dependencies": { "shebang-regex": "^3.0.0" } }, "sha1-zNCvT4g1+9wmW4JGGq8MNmY/NOo="],
+
+    "shebang-regex": ["shebang-regex@3.0.0", "http://registry.m.jd.com/shebang-regex/download/shebang-regex-3.0.0.tgz", {}, "sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI="],
+
+    "signal-exit": ["signal-exit@4.1.0", "http://registry.m.jd.com/signal-exit/download/signal-exit-4.1.0.tgz", {}, "sha1-lSGIwcvVRgcOLdIND0HArgUwywQ="],
+
+    "source-map": ["source-map@0.6.1", "http://registry.m.jd.com/source-map/download/source-map-0.6.1.tgz", {}, "sha1-dHIq8y6WFOnCh6jQu95IteLxomM="],
+
+    "source-map-js": ["source-map-js@1.2.1", "http://registry.m.jd.com/source-map-js/download/source-map-js-1.2.1.tgz", {}, "sha1-HOVlD93YerwJnto33P8CTCZnrkY="],
+
+    "source-map-support": ["source-map-support@0.5.21", "http://registry.m.jd.com/source-map-support/download/source-map-support-0.5.21.tgz", { "dependencies": { "buffer-from": "^1.0.0", "source-map": "^0.6.0" } }, "sha1-BP58f54e0tZiIzwoyys1ufY/bk8="],
+
+    "string-width": ["string-width@5.1.2", "http://registry.m.jd.com/string-width/download/string-width-5.1.2.tgz", { "dependencies": { "eastasianwidth": "^0.2.0", "emoji-regex": "^9.2.2", "strip-ansi": "^7.0.1" } }, "sha1-FPja7G2B5yIdKjV+Zoyrc728p5Q="],
+
+    "string-width-cjs": ["string-width@4.2.3", "http://registry.m.jd.com/string-width/download/string-width-4.2.3.tgz", { "dependencies": { "emoji-regex": "^8.0.0", "is-fullwidth-code-point": "^3.0.0", "strip-ansi": "^6.0.1" } }, "sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA="],
+
+    "strip-ansi": ["strip-ansi@7.2.0", "http://registry.m.jd.com/strip-ansi/download/strip-ansi-7.2.0.tgz", { "dependencies": { "ansi-regex": "^6.2.2" } }, "sha1-0iomlSKDamJ6+NBLXD/Sx/o+MuM="],
+
+    "strip-ansi-cjs": ["strip-ansi@6.0.1", "http://registry.m.jd.com/strip-ansi/download/strip-ansi-6.0.1.tgz", { "dependencies": { "ansi-regex": "^5.0.1" } }, "sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk="],
+
+    "stylus": ["stylus@0.64.0", "http://registry.m.jd.com/stylus/download/stylus-0.64.0.tgz", { "dependencies": { "@adobe/css-tools": "~4.3.3", "debug": "^4.3.2", "glob": "^10.4.5", "sax": "~1.4.1", "source-map": "^0.7.3" }, "bin": { "stylus": "bin/stylus" } }, "sha1-r5klPxJUyFFSjETt3DzPH4MZQvE="],
+
+    "sugarss": ["sugarss@5.0.1", "http://registry.m.jd.com/sugarss/download/sugarss-5.0.1.tgz", { "peerDependencies": { "postcss": "^8.3.3" } }, "sha1-VVidG5l82x8NhKlO1/AC5wj5Cbw="],
+
+    "supports-color": ["supports-color@8.1.1", "http://registry.m.jd.com/supports-color/download/supports-color-8.1.1.tgz", { "dependencies": { "has-flag": "^4.0.0" } }, "sha1-zW/BfihQDP9WwbhsCn/UpUpzAFw="],
+
+    "sync-child-process": ["sync-child-process@1.0.2", "http://registry.m.jd.com/sync-child-process/download/sync-child-process-1.0.2.tgz", { "dependencies": { "sync-message-port": "^1.0.0" } }, "sha1-RefHLnVtEkPoC1R+ouF5V6ueNn8="],
+
+    "sync-message-port": ["sync-message-port@1.2.0", "http://registry.m.jd.com/sync-message-port/download/sync-message-port-1.2.0.tgz", {}, "sha1-Sw1iIIXyFJYGEDcSXexhdV2W4zA="],
+
+    "terser": ["terser@5.46.1", "http://registry.m.jd.com/terser/download/terser-5.46.1.tgz", { "dependencies": { "@jridgewell/source-map": "^0.3.3", "acorn": "^8.15.0", "commander": "^2.20.0", "source-map-support": "~0.5.20" }, "bin": { "terser": "bin/terser" } }, "sha1-QOSx411fExMPgnk6iz7rfsOpLu4="],
+
+    "tinyglobby": ["tinyglobby@0.2.16", "http://registry.m.jd.com/tinyglobby/download/tinyglobby-0.2.16.tgz", { "dependencies": { "fdir": "^6.5.0", "picomatch": "^4.0.4" } }, "sha1-HDt+uVP85Csia8Wh7gZCgoGv89Y="],
+
+    "tslib": ["tslib@2.8.1", "http://registry.m.jd.com/tslib/download/tslib-2.8.1.tgz", {}, "sha1-YS7+TtI11Wfoq6Xypfq3AoCt6D8="],
+
+    "tsx": ["tsx@4.21.0", "http://registry.m.jd.com/tsx/download/tsx-4.21.0.tgz", { "dependencies": { "esbuild": "~0.27.0", "get-tsconfig": "^4.7.5" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "bin": { "tsx": "dist/cli.mjs" } }, "sha1-Mqps8XSB4zb3Vhleb+BNrj5jCLE="],
+
+    "typescript": ["typescript@5.9.3", "http://registry.m.jd.com/typescript/download/typescript-5.9.3.tgz", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha1-W09Z4VMQqxeiFvXWz1PuR27eZw8="],
+
+    "undici-types": ["undici-types@7.18.2", "http://registry.m.jd.com/undici-types/download/undici-types-7.18.2.tgz", {}, "sha1-KTV6iee3ykrvO/D9P9DNc4hCKek="],
+
+    "varint": ["varint@6.0.0", "http://registry.m.jd.com/varint/download/varint-6.0.0.tgz", {}, "sha1-mIHrDOj+rqZRJDnRnd+Ev1UWYdA="],
+
+    "vite": ["rolldown-vite@7.2.5", "http://registry.m.jd.com/rolldown-vite/download/rolldown-vite-7.2.5.tgz", { "dependencies": { "@oxc-project/runtime": "0.97.0", "fdir": "^6.5.0", "lightningcss": "^1.30.2", "picomatch": "^4.0.3", "postcss": "^8.5.6", "rolldown": "1.0.0-beta.50", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "esbuild": "^0.25.0", "jiti": ">=1.21.0", "less": "^4.0.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "bin": { "vite": "bin/vite.js" } }, "sha1-wrbPO4iStOaPuK08XfQDsEvf8ww="],
+
+    "which": ["which@2.0.2", "http://registry.m.jd.com/which/download/which-2.0.2.tgz", { "dependencies": { "isexe": "^2.0.0" }, "bin": { "node-which": "./bin/node-which" } }, "sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE="],
+
+    "wrap-ansi": ["wrap-ansi@8.1.0", "http://registry.m.jd.com/wrap-ansi/download/wrap-ansi-8.1.0.tgz", { "dependencies": { "ansi-styles": "^6.1.0", "string-width": "^5.0.1", "strip-ansi": "^7.0.1" } }, "sha1-VtwiNo7lcPrOG0mBmXXZuaXq0hQ="],
+
+    "wrap-ansi-cjs": ["wrap-ansi@7.0.0", "http://registry.m.jd.com/wrap-ansi/download/wrap-ansi-7.0.0.tgz", { "dependencies": { "ansi-styles": "^4.0.0", "string-width": "^4.1.0", "strip-ansi": "^6.0.0" } }, "sha1-Z+FFz/UQpqaYS98RUpEdadLrnkM="],
+
+    "yaml": ["yaml@2.8.3", "http://registry.m.jd.com/yaml/download/yaml-2.8.3.tgz", { "bin": { "yaml": "bin.mjs" } }, "sha1-oNa9Lvs90DxZNwIjcBg05gQJvX0="],
+
+    "string-width-cjs/emoji-regex": ["emoji-regex@8.0.0", "http://registry.m.jd.com/emoji-regex/download/emoji-regex-8.0.0.tgz", {}, "sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc="],
+
+    "string-width-cjs/strip-ansi": ["strip-ansi@6.0.1", "http://registry.m.jd.com/strip-ansi/download/strip-ansi-6.0.1.tgz", { "dependencies": { "ansi-regex": "^5.0.1" } }, "sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk="],
+
+    "strip-ansi-cjs/ansi-regex": ["ansi-regex@5.0.1", "http://registry.m.jd.com/ansi-regex/download/ansi-regex-5.0.1.tgz", {}, "sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ="],
+
+    "stylus/source-map": ["source-map@0.7.6", "http://registry.m.jd.com/source-map/download/source-map-0.7.6.tgz", {}, "sha1-o2WKuH5bZCnIofO6AIPUxhyj7wI="],
+
+    "tsx/esbuild": ["esbuild@0.27.7", "http://registry.m.jd.com/esbuild/download/esbuild-0.27.7.tgz", { "optionalDependencies": { "@esbuild/aix-ppc64": "0.27.7", "@esbuild/android-arm": "0.27.7", "@esbuild/android-arm64": "0.27.7", "@esbuild/android-x64": "0.27.7", "@esbuild/darwin-arm64": "0.27.7", "@esbuild/darwin-x64": "0.27.7", "@esbuild/freebsd-arm64": "0.27.7", "@esbuild/freebsd-x64": "0.27.7", "@esbuild/linux-arm": "0.27.7", "@esbuild/linux-arm64": "0.27.7", "@esbuild/linux-ia32": "0.27.7", "@esbuild/linux-loong64": "0.27.7", "@esbuild/linux-mips64el": "0.27.7", "@esbuild/linux-ppc64": "0.27.7", "@esbuild/linux-riscv64": "0.27.7", "@esbuild/linux-s390x": "0.27.7", "@esbuild/linux-x64": "0.27.7", "@esbuild/netbsd-arm64": "0.27.7", "@esbuild/netbsd-x64": "0.27.7", "@esbuild/openbsd-arm64": "0.27.7", "@esbuild/openbsd-x64": "0.27.7", "@esbuild/openharmony-arm64": "0.27.7", "@esbuild/sunos-x64": "0.27.7", "@esbuild/win32-arm64": "0.27.7", "@esbuild/win32-ia32": "0.27.7", "@esbuild/win32-x64": "0.27.7" }, "bin": { "esbuild": "bin/esbuild" } }, "sha1-vK3OIrLz/XbyV+OmT4OmSYb+oR8="],
+
+    "wrap-ansi-cjs/ansi-styles": ["ansi-styles@4.3.0", "http://registry.m.jd.com/ansi-styles/download/ansi-styles-4.3.0.tgz", { "dependencies": { "color-convert": "^2.0.1" } }, "sha1-7dgDYornHATIWuegkG7a00tkiTc="],
+
+    "wrap-ansi-cjs/string-width": ["string-width@4.2.3", "http://registry.m.jd.com/string-width/download/string-width-4.2.3.tgz", { "dependencies": { "emoji-regex": "^8.0.0", "is-fullwidth-code-point": "^3.0.0", "strip-ansi": "^6.0.1" } }, "sha1-JpxxF9J7Ba0uU2gwqOyJXvnG0BA="],
+
+    "wrap-ansi-cjs/strip-ansi": ["strip-ansi@6.0.1", "http://registry.m.jd.com/strip-ansi/download/strip-ansi-6.0.1.tgz", { "dependencies": { "ansi-regex": "^5.0.1" } }, "sha1-nibGPTD1NEPpSJSVshBdN7Z6hdk="],
+
+    "string-width-cjs/strip-ansi/ansi-regex": ["ansi-regex@5.0.1", "http://registry.m.jd.com/ansi-regex/download/ansi-regex-5.0.1.tgz", {}, "sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ="],
+
+    "tsx/esbuild/@esbuild/aix-ppc64": ["@esbuild/aix-ppc64@0.27.7", "http://registry.m.jd.com/@esbuild/aix-ppc64/download/@esbuild/aix-ppc64-0.27.7.tgz", {}, "sha1-grdPkqp41yC3FBYpOfskjJCt31M="],
+
+    "tsx/esbuild/@esbuild/android-arm": ["@esbuild/android-arm@0.27.7", "http://registry.m.jd.com/@esbuild/android-arm/download/@esbuild/android-arm-0.27.7.tgz", {}, "sha1-WT4QoUULv8rGyzIfYfRoRTusIJ0="],
+
+    "tsx/esbuild/@esbuild/android-arm64": ["@esbuild/android-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/android-arm64/download/@esbuild/android-arm64-0.27.7.tgz", {}, "sha1-94y4oxIfwgWlMoWtskly2zhdGF0="],
+
+    "tsx/esbuild/@esbuild/android-x64": ["@esbuild/android-x64@0.27.7", "http://registry.m.jd.com/@esbuild/android-x64/download/@esbuild/android-x64-0.27.7.tgz", {}, "sha1-RTFD0HMyYDPS0iyvnkjeS64nSwc="],
+
+    "tsx/esbuild/@esbuild/darwin-arm64": ["@esbuild/darwin-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/darwin-arm64/download/@esbuild/darwin-arm64-0.27.7.tgz", {}, "sha1-byMAD7m0C34Et9BgbAaTvQYy8yI="],
+
+    "tsx/esbuild/@esbuild/darwin-x64": ["@esbuild/darwin-x64@0.27.7", "http://registry.m.jd.com/@esbuild/darwin-x64/download/@esbuild/darwin-x64-0.27.7.tgz", {}, "sha1-Jzk90YuxJjxmOXnF8VduAMLQJL4="],
+
+    "tsx/esbuild/@esbuild/freebsd-arm64": ["@esbuild/freebsd-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/freebsd-arm64/download/@esbuild/freebsd-arm64-0.27.7.tgz", {}, "sha1-IuRjj6UC0cACcHcyTJdkDjrfOmI="],
+
+    "tsx/esbuild/@esbuild/freebsd-x64": ["@esbuild/freebsd-x64@0.27.7", "http://registry.m.jd.com/@esbuild/freebsd-x64/download/@esbuild/freebsd-x64-0.27.7.tgz", {}, "sha1-kiS45P6pJM4hlOPvw+muv4IhktY="],
+
+    "tsx/esbuild/@esbuild/linux-arm": ["@esbuild/linux-arm@0.27.7", "http://registry.m.jd.com/@esbuild/linux-arm/download/@esbuild/linux-arm-0.27.7.tgz", {}, "sha1-uenQcMjBwESc8Ssg6sN9cKRZWSE="],
+
+    "tsx/esbuild/@esbuild/linux-arm64": ["@esbuild/linux-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/linux-arm64/download/@esbuild/linux-arm64-0.27.7.tgz", {}, "sha1-T10cJ1J9gXs1aEriFBnlfCvaCWY="],
+
+    "tsx/esbuild/@esbuild/linux-ia32": ["@esbuild/linux-ia32@0.27.7", "http://registry.m.jd.com/@esbuild/linux-ia32/download/@esbuild/linux-ia32-0.27.7.tgz", {}, "sha1-P4D7aWqpYFGpQEfzXIWwiyHDb54="],
+
+    "tsx/esbuild/@esbuild/linux-loong64": ["@esbuild/linux-loong64@0.27.7", "http://registry.m.jd.com/@esbuild/linux-loong64/download/@esbuild/linux-loong64-0.27.7.tgz", {}, "sha1-m+HywoIQsT67QVYiG7o1b+FnUgU="],
+
+    "tsx/esbuild/@esbuild/linux-mips64el": ["@esbuild/linux-mips64el@0.27.7", "http://registry.m.jd.com/@esbuild/linux-mips64el/download/@esbuild/linux-mips64el-0.27.7.tgz", {}, "sha1-SrXuZ6Pfy8tej9eIPa5uc1sRY7g="],
+
+    "tsx/esbuild/@esbuild/linux-ppc64": ["@esbuild/linux-ppc64@0.27.7", "http://registry.m.jd.com/@esbuild/linux-ppc64/download/@esbuild/linux-ppc64-0.27.7.tgz", {}, "sha1-2seMaJ9kmUWcQyHlwVAywSMH5+o="],
+
+    "tsx/esbuild/@esbuild/linux-riscv64": ["@esbuild/linux-riscv64@0.27.7", "http://registry.m.jd.com/@esbuild/linux-riscv64/download/@esbuild/linux-riscv64-0.27.7.tgz", {}, "sha1-BQ99OzVcOpgwjpNbxNYyXakbACc="],
+
+    "tsx/esbuild/@esbuild/linux-s390x": ["@esbuild/linux-s390x@0.27.7", "http://registry.m.jd.com/@esbuild/linux-s390x/download/@esbuild/linux-s390x-0.27.7.tgz", {}, "sha1-1h9xXOYdQ/5YRK0Nj0Y/iMvk/vY="],
+
+    "tsx/esbuild/@esbuild/linux-x64": ["@esbuild/linux-x64@0.27.7", "http://registry.m.jd.com/@esbuild/linux-x64/download/@esbuild/linux-x64-0.27.7.tgz", {}, "sha1-yo4apHj8ggkle/Osj3nE3CmC8yo="],
+
+    "tsx/esbuild/@esbuild/netbsd-arm64": ["@esbuild/netbsd-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/netbsd-arm64/download/@esbuild/netbsd-arm64-0.27.7.tgz", {}, "sha1-FlDywblI3us++Ujy/DBhRyPAlpA="],
+
+    "tsx/esbuild/@esbuild/netbsd-x64": ["@esbuild/netbsd-x64@0.27.7", "http://registry.m.jd.com/@esbuild/netbsd-x64/download/@esbuild/netbsd-x64-0.27.7.tgz", {}, "sha1-ZXcqs0LEszGb8HBaIRBQqsG24yA="],
+
+    "tsx/esbuild/@esbuild/openbsd-arm64": ["@esbuild/openbsd-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/openbsd-arm64/download/@esbuild/openbsd-arm64-0.27.7.tgz", {}, "sha1-N+18+mZUnXlVhS/ON9DD3k5xXqE="],
+
+    "tsx/esbuild/@esbuild/openbsd-x64": ["@esbuild/openbsd-x64@0.27.7", "http://registry.m.jd.com/@esbuild/openbsd-x64/download/@esbuild/openbsd-x64-0.27.7.tgz", {}, "sha1-Ab89OFhV71DLM9t8S1L5V8NM0Xk="],
+
+    "tsx/esbuild/@esbuild/openharmony-arm64": ["@esbuild/openharmony-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/openharmony-arm64/download/@esbuild/openharmony-arm64-0.27.7.tgz", {}, "sha1-bB+Us0CGWZqr2k6sj2OClLmHdBA="],
+
+    "tsx/esbuild/@esbuild/sunos-x64": ["@esbuild/sunos-x64@0.27.7", "http://registry.m.jd.com/@esbuild/sunos-x64/download/@esbuild/sunos-x64-0.27.7.tgz", {}, "sha1-Sw3ReuCmlB0tD9NakGOSUXBxqQ0="],
+
+    "tsx/esbuild/@esbuild/win32-arm64": ["@esbuild/win32-arm64@0.27.7", "http://registry.m.jd.com/@esbuild/win32-arm64/download/@esbuild/win32-arm64-0.27.7.tgz", {}, "sha1-NBk6tVZdb/aMqSisBL51ECzLLnc="],
+
+    "tsx/esbuild/@esbuild/win32-ia32": ["@esbuild/win32-ia32@0.27.7", "http://registry.m.jd.com/@esbuild/win32-ia32/download/@esbuild/win32-ia32-0.27.7.tgz", {}, "sha1-62fw5EglFdjBiU7eYxwyek2p/E0="],
+
+    "tsx/esbuild/@esbuild/win32-x64": ["@esbuild/win32-x64@0.27.7", "http://registry.m.jd.com/@esbuild/win32-x64/download/@esbuild/win32-x64-0.27.7.tgz", {}, "sha1-j+MLMIi4m0hzw6bMh1l645IMCos="],
+
+    "wrap-ansi-cjs/string-width/emoji-regex": ["emoji-regex@8.0.0", "http://registry.m.jd.com/emoji-regex/download/emoji-regex-8.0.0.tgz", {}, "sha1-6Bj9ac5cz8tARZT4QpY79TFkzDc="],
+
+    "wrap-ansi-cjs/strip-ansi/ansi-regex": ["ansi-regex@5.0.1", "http://registry.m.jd.com/ansi-regex/download/ansi-regex-5.0.1.tgz", {}, "sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ="],
+  }
+}

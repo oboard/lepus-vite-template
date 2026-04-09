@@ -1,0 +1,15 @@
+import {
+  "lepus-apps/lepus",
+}
+
+supported_targets = "+native"
+
+options(
+  "is-main": true,
+  link: {
+    "native": {
+      "cc": ".mooncakes/lepus-apps/lepus/_build/native/release/build/cli/cc/cc.exe",
+    },
+  },
+  targets: { "main.mbt": [ "native" ] },
+)
