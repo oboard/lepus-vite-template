@@ -1,14 +1,15 @@
 {
-    "name": "lepus-apps/lepus-vite-template",
-    "version": "0.1.0",
-    "deps": {
-        "lepus-apps/lepus": "0.1.0"
-    },
-    "readme": "README.mbt.md",
-    "repository": "https://github.com/lepus-apps/lepus-vite-template",
-    "license": "Apache-2.0",
-    "keywords": [],
-    "description": "",
-    "source": ".",
-    "preferred-target": "native"
+  "name": "lepus-apps/lepus-vite-template",
+  "version": "0.1.0",
+  "deps": {
+    "lepus-apps/lepus": "0.1.1",
+    "lepus-apps/webview": "0.1.9"
+  },
+  "readme": "README.mbt.md",
+  "repository": "https://github.com/lepus-apps/lepus-vite-template",
+  "license": "Apache-2.0",
+  "keywords": [],
+  "description": "",
+  "source": ".",
+  "preferred-target": "native"
 }

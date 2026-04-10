@@ -1,5 +1,6 @@
 import {
   "lepus-apps/lepus",
+  "lepus-apps/webview",
 }
 
 supported_targets = "+native"
