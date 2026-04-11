@@ -12,5 +12,12 @@ options(
       "cc": ".mooncakes/lepus-apps/lepus/_build/native/release/build/cli/cc/cc.exe",
     },
   },
+  "pre-build": [
+    {
+      "command": ":embed -i $input -o $output --binary",
+      "input": "_build/dist.zip",
+      "output": "dist.zip.mbt",
+    },
+  ],
   targets: { "env.debug.mbt": [ "debug" ], "env.release.mbt": [ "release" ] },
 )

@@ -1,2 +1,4 @@
 ///|
-let source : @lepus.Source = Memory(@lepus.MemorySource::zip(":embed "))
+let source : @lepus.Source = @lepus.Source::zip(resource) catch {
+  _ => @lepus.Source::html("")
+}
