@@ -11,6 +11,7 @@
     "dev": "concurrently -k \"vite dev --port 2333\" \"moon run main.mbt\""
   },
   "devDependencies": {
+    "concurrently": "^9.2.1",
     "typescript": "^6.0.2",
     "vite": "^8.0.8"
   }
